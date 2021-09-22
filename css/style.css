@@ -154,7 +154,7 @@ li #logo{
 /* main */
 main{
 
-    background-color: rgb(235, 228, 228);
+    background-color:#f6f6f6
     /* regole di debug */
 }
 
@@ -212,8 +212,46 @@ main{
     text-align: center;
 }
 /* footer  */
+#foot{
+    padding-top: 50px;
+}
+footer .contenitore{
+    width: 100%;
+}
+footer #uno{
+    width: 40%;
+}
+
+.float{
+    float: left;
+    width: 15%;
+}
+
+#uno h2{
+    margin-bottom: 30px;
+    color: #5865f2;
+    font-weight: bold;
+    font-size: 50px;
+}
+#uno #ita{
+height: 20px;
+}
+#ita img{
+    height: 12px;
+    width: auto;
+}
+#ita #spazio{
+    padding: 0 5px;
+}
+footer li{
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+li .fab{
+    font-size: 24px;
+}
 footer{
-    height: 400px;
-    background-color: rgb(20, 19, 19);
-    /* regole di debug  */
+
+    background-color: rgb(26, 26, 26);
+    
 }
