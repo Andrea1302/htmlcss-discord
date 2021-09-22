@@ -201,7 +201,7 @@ main{
 #image_stelline h2{
     font-size: 35px;
 }  
-.quarta #scaricare{
+.scaricare{
     color: white;
     background-color: #5865f2;
     padding: 15px;
@@ -217,6 +217,8 @@ main{
 }
 footer .contenitore{
     width: 100%;
+    border-bottom: 2px solid #5865f2;
+    padding-bottom: 50px;
 }
 footer #uno{
     width: 40%;
@@ -243,15 +245,36 @@ height: 20px;
 #ita #spazio{
     padding: 0 5px;
 }
-footer li{
+.sx li{
     display: inline-block;
     margin: 10px 10px 0 0;
 }
 li .fab{
     font-size: 24px;
 }
-footer{
 
+footer li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 10px;
+}
+footer .name{
+    color: #5865f2;
+}
+.down{
+    width: 100%;
+    padding:50px  0;
+}
+.down #registrati{
+    width: 80%;
+    text-align: end;
+    float: left;
+}
+#logo_footer{
+    width: 20%;
+    float: left;
+}
+
+footer{
     background-color: rgb(26, 26, 26);
-    
 }
