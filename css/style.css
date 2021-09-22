@@ -19,14 +19,20 @@ a{
 }
 /* Regole centralizzazione  */
 .centralizzazione{
-    /* background-color: white; */
-    height: 200px;
+ 
     /* regole di debug  */
     width: 80%;
     margin: 0 auto;
 }
 
+/* regole bg color  */
+.bg_white{
+    background-color: white;
+}
+
+
 /* regole generali classi */
+
 .parti, nav ul{
     float: left;
 }
@@ -38,6 +44,8 @@ a{
 }
 .bg_white{
     background-color: white;
+    margin-bottom: 80px;
+
 }
 .popo{
     height: 200px;
