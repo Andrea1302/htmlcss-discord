@@ -9,3 +9,34 @@
 body{
     font-family: 'whitney','Neue Helvetica','Helvetica','Arial','sans-serif';
 }
+
+/* Regole centralizzazione  */
+.centralizzazione{
+    background-color: white;
+    height: 200px;
+    /* regole di debug  */
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header  */
+header{
+    height: 400px;
+    background-color: blue;
+    /* regole di debug */
+    padding-top: 10px;
+}
+
+/* main */
+main{
+    height: 1000px;
+    background-color: #ccc;
+    /* regole di debug */
+}
+
+/* footer  */
+footer{
+    height: 400px;
+    background-color: black;
+    /* regole di debug  */
+}
