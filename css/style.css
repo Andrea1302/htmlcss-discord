@@ -19,8 +19,6 @@ a{
 }
 /* Regole centralizzazione  */
 .centralizzazione{
- 
-    /* regole di debug  */
     width: 80%;
     margin: 0 auto;
 }
@@ -30,9 +28,17 @@ a{
     background-color: white;
 }
 
+/* regole bordo 
+#bordo{
+
+} */
+
+
 
 /* regole generali classi */
-
+nav{
+    width: 100%;
+}
 .parti, nav ul{
     float: left;
 }
@@ -46,9 +52,6 @@ a{
     background-color: white;
     margin-bottom: 80px;
 
-}
-.popo{
-    height: 200px;
 }
 /* Header  */
 header{
@@ -115,10 +118,7 @@ li #logo{
     width: 60%;
     margin: auto;
     padding: 0 5px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate( -50%, -50% );
+    
     
 }
 
@@ -138,6 +138,9 @@ li #logo{
     background-color: white;
     color: black;
 }
+#scarica .fa-arrow-down{
+    font-size: 10px;
+}
 .jumbo #apri{
     margin-left: 20px;
     color: white;
@@ -149,11 +152,12 @@ li #logo{
 /* main */
 main{
 
-    background-color: #ccc;
+    background-color: rgb(235, 228, 228);
     /* regole di debug */
 }
 #section1{
     padding-top: 40px;
+    margin-bottom: 50px;
 }
 .section_left{
     float: left;
