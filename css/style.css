@@ -24,9 +24,7 @@ a{
 }
 
 /* regole bg color  */
-.bg_white{
-    background-color: white;
-}
+
 
 /* regole bordo 
 #bordo{
@@ -48,11 +46,18 @@ nav{
     border-radius: 9px;
     
 }
+
+/* sezione 1 e 3 del main  */
 .bg_white{
     background-color: white;
-    margin-bottom: 80px;
-
+    padding:60px 0;
 }
+
+/* sezione 2 e 4 del main  */
+.container{
+    padding:60px 0;
+}
+
 /* Header  */
 header{
     height: 350px;
@@ -103,12 +108,9 @@ li #logo{
 }
 
 #access{
-    position: relative;
+    text-align: end;
 }
 #accedi{
-    position: absolute;
-    top: 0;
-    right: 0;
     background-color: white;
     color: black;
 }
@@ -155,19 +157,17 @@ main{
     background-color: rgb(235, 228, 228);
     /* regole di debug */
 }
-#section1{
-    padding-top: 40px;
-    margin-bottom: 50px;
-}
+
 .section_left{
     float: left;
     width: 70%;
 }
-.section_left #first_section{
+.section_left .first_section{
     width: 100%;
     height: auto;
 }
 .section_right{
+   
     float: left;
     width: 30%;
 }
@@ -176,6 +176,41 @@ main{
     margin-bottom: 15px;
 }
 
+/* quarta sezione  */
+.quarta h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.quarta p{
+    text-align: center;
+}
+.ultima_img{
+    width: 100%;
+    margin: 0 auto;
+}
+.ultima_img img{
+    width: 100%;
+    height: auto;
+}
+.quarta #image_stelline{
+    background-image: url(../img/stars.svg);
+    width: 58%;
+    margin: 0 auto;
+}
+#image_stelline h2{
+    font-size: 35px;
+}  
+.quarta #scaricare{
+    color: white;
+    background-color: #5865f2;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+#scaricare_section_end{
+    text-align: center;
+}
 /* footer  */
 footer{
     height: 400px;
