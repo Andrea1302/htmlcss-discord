@@ -36,6 +36,12 @@ a{
     border-radius: 9px;
     
 }
+.bg_white{
+    background-color: white;
+}
+.popo{
+    height: 200px;
+}
 /* Header  */
 header{
     height: 350px;
@@ -73,9 +79,7 @@ li a{
     height: 100%;
     color: white;
 }
-#header_left{
-    
-}
+
 li .fa-discord{
 
     font-size: 18px;
@@ -136,9 +140,28 @@ li #logo{
 }
 /* main */
 main{
-    height: 1000px;
+
     background-color: #ccc;
     /* regole di debug */
+}
+#section1{
+    padding-top: 40px;
+}
+.section_left{
+    float: left;
+    width: 70%;
+}
+.section_left #first_section{
+    width: 100%;
+    height: auto;
+}
+.section_right{
+    float: left;
+    width: 30%;
+}
+.section_right h2{
+    font-size: 50px;
+    margin-bottom: 15px;
 }
 
 /* footer  */
