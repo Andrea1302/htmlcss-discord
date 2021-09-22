@@ -14,6 +14,9 @@ body{
     display: table;
     clear: both;
 }
+a{
+    text-decoration: none;
+}
 /* Regole centralizzazione  */
 .centralizzazione{
     /* background-color: white; */
@@ -39,7 +42,7 @@ header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     color: white;
-
+    position: relative;
 }
 nav .parti{
     width: 25%;
@@ -60,7 +63,7 @@ nav ul{
     text-align: center;
 }
 nav li{
-    margin: 0 3px;
+    margin: 0 5px;
     list-style: none;
     display: inline-block;
     
@@ -93,6 +96,43 @@ li #logo{
     right: 0;
     background-color: white;
     color: black;
+}
+
+/* jumbotron */
+.jumbo{
+    width: 60%;
+    margin: auto;
+    padding: 0 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    
+}
+
+.jumbo .descrizione_discord{
+    margin-bottom: 20px;
+}
+.row{
+    text-align: center;
+}
+
+.jumbo h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.jumbo #scarica{
+    background-color: white;
+    color: black;
+}
+.jumbo #apri{
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+}
+.jumbo #scarica_apri{
+    text-align: center;
 }
 /* main */
 main{
