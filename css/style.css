@@ -22,8 +22,16 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+
+/* regole generali classi */
 .parti, nav ul{
     float: left;
+}
+
+.bottone{
+    padding: 3px 9px;
+    border-radius: 9px;
+    
 }
 /* Header  */
 header{
@@ -83,6 +91,8 @@ li #logo{
     position: absolute;
     top: 0;
     right: 0;
+    background-color: white;
+    color: black;
 }
 /* main */
 main{
@@ -94,6 +104,6 @@ main{
 /* footer  */
 footer{
     height: 400px;
-    background-color: black;
+    background-color: rgb(20, 19, 19);
     /* regole di debug  */
 }
